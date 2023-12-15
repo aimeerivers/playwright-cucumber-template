@@ -1,13 +1,13 @@
-import { Page } from 'playwright';
+import { type Locator, type Page } from 'playwright'
 
 export class ProductPage {
-  page: Page;
+  page: Page
 
-  constructor(page: Page) {
-    this.page = page;
+  constructor (page: Page) {
+    this.page = page
   }
 
-  async productList() {
-    return this.page.locator('.productlist-onerow__wrap').first();
+  async productList (): Promise<Locator> {
+    return this.page.locator('.productlist-onerow__wrap').first()
   }
 }
