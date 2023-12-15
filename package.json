@@ -1,7 +1,7 @@
 {
   "name": "playwright-cucumber-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Getting started with TypeScript, Playwright and Cucumber",
   "main": "index.js",
   "scripts": {
     "playwright:install": "npx playwright install",
