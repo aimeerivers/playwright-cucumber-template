@@ -2,13 +2,21 @@ import { Given, When, Then, Before, After, setDefaultTimeout } from '@cucumber/c
 import assert from 'node:assert';
 import { chromium, Browser, Page } from 'playwright';
 
+import { HomePage } from '../pages/home-page';
+import { ProductPage } from '../pages/product-page';
+
 let browser: Browser;
 let page: Page;
+let homePage: HomePage;
+let productPage: ProductPage;
 
 setDefaultTimeout(600 * 1000);
 
 Before(async () => {
-  browser = await chromium.launch({headless: false});
+  browser = await chromium.launch({ headless: false });
+  page = await browser.newPage();
+  homePage = new HomePage(page);
+  productPage = new ProductPage(page);
 });
 
 After(async () => {
@@ -16,26 +24,19 @@ After(async () => {
 });
 
 Given('a user is on the home page', async function () {
-  page = await browser.newPage();
   await page.goto('https://nemlig.com');
-  await acceptCookies();
+  await homePage.acceptCookies();
 });
 
 When('they click on the {string} category', async function (category: string) {
-  await page.getByLabel('Kategori').getByRole('link', { name: category, exact: true }).click();
+  await homePage.clickCategory(category);
 });
 
 Then('they should end up on the {string} page', async function (heading: string) {
-  await page.getByRole('heading', { name: heading }).waitFor();
+  const actualHeading = await page.getByRole('heading', { name: heading }).innerText();
+  assert.equal(actualHeading, heading, `Expected heading to be '${heading}', but it was '${actualHeading}'`);
 });
 
 Then('they should see a list of products', async function () {
-  const productList = await page.locator('.productlist-onerow__wrap').first();
-  await productList.waitFor();
-  
-  assert(await productList.isVisible(), 'Product list is not visible');
+  assert(await (await productPage.productList()).isVisible(), 'Product list is not visible');
 });
-
-async function acceptCookies() {
-  await page.getByLabel('OK TIL ALLE', { exact: true }).click();
-}
