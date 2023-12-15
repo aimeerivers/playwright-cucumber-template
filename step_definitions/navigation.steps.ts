@@ -1,3 +1,4 @@
+import assert from 'node:assert';
 import {
   Given,
   When,
@@ -6,7 +7,6 @@ import {
   After,
   setDefaultTimeout,
 } from '@cucumber/cucumber';
-import assert from 'node:assert';
 import type { Browser, Page } from 'playwright';
 import { chromium } from 'playwright';
 
