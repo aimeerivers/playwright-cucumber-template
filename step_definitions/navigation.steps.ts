@@ -1,4 +1,4 @@
-import { Given, When, Then, Before, After, setDefaultTimeout } from '@cucumber/cucumber';
+import { Given, When, Then, Before, After } from '@cucumber/cucumber';
 import assert from 'node:assert';
 import { chromium, Browser, Page } from 'playwright';
 
@@ -10,10 +10,8 @@ let page: Page;
 let homePage: HomePage;
 let productPage: ProductPage;
 
-setDefaultTimeout(600 * 1000);
-
 Before(async () => {
-  browser = await chromium.launch({ headless: false });
+  browser = await chromium.launch({ headless: true });
   page = await browser.newPage();
   homePage = new HomePage(page);
   productPage = new ProductPage(page);
