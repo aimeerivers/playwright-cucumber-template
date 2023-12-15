@@ -1,4 +1,4 @@
-import { type Locator, type Page } from 'playwright';
+import type { Locator, Page } from 'playwright';
 
 export class ProductPage {
   page: Page;
