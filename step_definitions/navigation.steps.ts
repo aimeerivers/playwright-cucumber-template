@@ -1,6 +1,15 @@
-import { Given, When, Then, Before, After, setDefaultTimeout } from '@cucumber/cucumber';
 import assert from 'node:assert';
-import { chromium, Browser, Page } from 'playwright';
+
+import {
+  After,
+  Before,
+  Given,
+  setDefaultTimeout,
+  Then,
+  When,
+} from '@cucumber/cucumber';
+import type { Browser, Page } from 'playwright';
+import { chromium } from 'playwright';
 
 import { HomePage } from '../pages/home-page';
 import { ProductPage } from '../pages/product-page';
@@ -32,11 +41,23 @@ When('they click on the {string} category', async function (category: string) {
   await homePage.clickCategory(category);
 });
 
-Then('they should end up on the {string} page', async function (heading: string) {
-  const actualHeading = await page.getByRole('heading', { name: heading }).innerText();
-  assert.equal(actualHeading, heading, `Expected heading to be '${heading}', but it was '${actualHeading}'`);
-});
+Then(
+  'they should end up on the {string} page',
+  async function (heading: string) {
+    const actualHeading = await page
+      .getByRole('heading', { name: heading })
+      .innerText();
+    assert.equal(
+      actualHeading,
+      heading,
+      `Expected heading to be '${heading}', but it was '${actualHeading}'`
+    );
+  }
+);
 
 Then('they should see a list of products', async function () {
-  assert(await (await productPage.productList()).isVisible(), 'Product list is not visible');
+  assert(
+    await (await productPage.productList()).isVisible(),
+    'Product list is not visible'
+  );
 });
