@@ -11,8 +11,8 @@ import {
 import type { Browser, Page } from 'playwright';
 import { chromium } from 'playwright';
 
-import { HomePage } from '../pages/home-page';
-import { ProductPage } from '../pages/product-page';
+import { HomePage } from '../pages/home.page';
+import { ProductPage } from '../pages/product.page';
 
 let browser: Browser;
 let page: Page;
