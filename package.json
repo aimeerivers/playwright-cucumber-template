@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "playwright:install": "npx playwright install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cucumber-js"
   },
   "keywords": [],
   "author": "",
