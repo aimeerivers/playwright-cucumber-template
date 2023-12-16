@@ -10,6 +10,8 @@ import { chromium } from 'playwright';
 import { HomePage } from './pages/home.page';
 import { ProductPage } from './pages/product.page';
 
+setDefaultTimeout(10 * 1000);
+
 export default class CustomWorld extends World {
   browser: Browser | null;
   page: Page | null;
@@ -17,8 +19,6 @@ export default class CustomWorld extends World {
   productPage: ProductPage | null;
 
   constructor(options: IWorldOptions<unknown>) {
-    setDefaultTimeout(10 * 1000);
-
     super(options);
     this.browser = null;
     this.page = null;
