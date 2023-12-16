@@ -8,12 +8,13 @@
     "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended"
   ],
-  "plugins": ["simple-import-sort"],
+  "plugins": ["simple-import-sort", "unused-imports"],
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
   "rules": {
+    "unused-imports/no-unused-imports": "error",
     "@typescript-eslint/consistent-type-imports": [
       "error",
       {
