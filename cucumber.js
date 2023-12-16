@@ -1,4 +1,9 @@
+const common = [
+  '--require-module ts-node/register',
+  '--require cucumber/world.ts',
+  '--require cucumber/steps/**/*.ts',
+].join(' ');
+
 module.exports = {
-  default:
-    '--require-module ts-node/register --require step_definitions/**/*.ts',
+  default: common,
 };

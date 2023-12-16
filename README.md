@@ -13,9 +13,9 @@ Includes TSConfig, ESLint and Prettier.
 
 ## Writing Cucumber features
 
-- Features are in the `features` folder and end with `.feature`
-- Step definitions are in the `step_definitions` folder and end with `.steps.ts`
-- Pages are in the `pages` folder and end with `.page.ts`
+- Features are in the `cucumber/features` folder and end with `.feature`
+- Step definitions are in the `cucumber/steps` folder and end with `.steps.ts`
+- Pages are in the `cucumber/pages` folder and end with `.page.ts`
 
 ## Running Cucumber
 
@@ -26,5 +26,5 @@ Includes TSConfig, ESLint and Prettier.
     npm run lint
     npm run format
 
-- Linting will check for errors and fix formatting in `.ts` files.
+- Linting will check for errors and fix formatting in `.ts` and `.js` files.
 - Formatting will apply format rules to all possible files.

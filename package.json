@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "playwright:install": "npx playwright install",
-    "lint": "eslint . --fix --ext .ts",
+    "lint": "eslint . --ext .ts,.js --fix",
     "format": "prettier --write .",
-    "test": "cucumber-js"
+    "test": "cucumber-js cucumber"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +25,7 @@
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
     "playwright": "^1.40.1",
     "prettier": "^3.1.1",
     "ts-node": "^10.9.2",
