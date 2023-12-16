@@ -1,4 +1,4 @@
-name: Run cucumber tests
+name: Run Cucumber features
 
 on:
   pull_request:
@@ -22,5 +22,5 @@ jobs:
       - name: Install Playwright browsers
         run: npm run playwright:install
 
-      - name: Run Playwright tests
+      - name: Run Cucumber features
         run: npm run test
