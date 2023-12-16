@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "playwright:install": "npx playwright install",
-    "lint": "eslint . --fix --ext .ts",
+    "lint": "eslint . --ext .ts,.js --fix",
     "format": "prettier --write .",
     "test": "cucumber-js"
   },

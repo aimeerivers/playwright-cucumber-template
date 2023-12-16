@@ -26,5 +26,5 @@ Includes TSConfig, ESLint and Prettier.
     npm run lint
     npm run format
 
-- Linting will check for errors and fix formatting in `.ts` files.
+- Linting will check for errors and fix formatting in `.ts` and `.js` files.
 - Formatting will apply format rules to all possible files.
