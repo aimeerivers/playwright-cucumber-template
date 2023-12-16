@@ -1,50 +1,28 @@
 import assert from 'node:assert';
 
-import {
-  After,
-  Before,
-  Given,
-  setDefaultTimeout,
-  Then,
-  When,
-} from '@cucumber/cucumber';
-import type { Browser, Page } from 'playwright';
-import { chromium } from 'playwright';
+import { After, Before, Given, Then, When } from '@cucumber/cucumber';
 
-import { HomePage } from '../pages/home.page';
-import { ProductPage } from '../pages/product.page';
-
-let browser: Browser;
-let page: Page;
-let homePage: HomePage;
-let productPage: ProductPage;
-
-setDefaultTimeout(10 * 1000);
-
-Before(async () => {
-  browser = await chromium.launch({ headless: true });
-  page = await browser.newPage();
-  homePage = new HomePage(page);
-  productPage = new ProductPage(page);
+Before(async function () {
+  await this.openBrowser();
 });
 
-After(async () => {
-  await browser.close();
+After(async function () {
+  await this.closeBrowser();
 });
 
 Given('a user is on the home page', async function () {
-  await page.goto('https://nemlig.com');
-  await homePage.acceptCookies();
+  await this.page.goto('https://nemlig.com');
+  await this.homePage.acceptCookies();
 });
 
 When('they click on the {string} category', async function (category: string) {
-  await homePage.clickCategory(category);
+  await this.homePage.clickCategory(category);
 });
 
 Then(
   'they should end up on the {string} page',
   async function (heading: string) {
-    const actualHeading = await page
+    const actualHeading = await this.page
       .getByRole('heading', { name: heading })
       .innerText();
     assert.equal(
@@ -57,7 +35,7 @@ Then(
 
 Then('they should see a list of products', async function () {
   assert(
-    await (await productPage.productList()).isVisible(),
+    await (await this.productPage.productList()).isVisible(),
     'Product list is not visible'
   );
 });
