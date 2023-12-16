@@ -1,4 +1,8 @@
+const common = [
+  '--require-module ts-node/register',
+  '--require step-definitions/**/*.ts',
+].join(' ');
+
 module.exports = {
-  default:
-    '--require-module ts-node/register --require step_definitions/**/*.ts',
+  default: common,
 };

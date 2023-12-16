@@ -14,7 +14,7 @@ Includes TSConfig, ESLint and Prettier.
 ## Writing Cucumber features
 
 - Features are in the `features` folder and end with `.feature`
-- Step definitions are in the `step_definitions` folder and end with `.steps.ts`
+- Step definitions are in the `step-definitions` folder and end with `.steps.ts`
 - Pages are in the `pages` folder and end with `.page.ts`
 
 ## Running Cucumber
