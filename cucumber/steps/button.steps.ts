@@ -11,10 +11,16 @@ When(
   async function (newText: string) {
     await (await this.buttonPage.makeButtonLink()).click();
     await (await this.editButtonPage.labelTextarea()).fill(newText);
-    await this.page.waitForTimeout(100);
     await (await this.editButtonPage.createButtonButton()).click();
   }
 );
+
+When('they make their own button saying some random text', async function () {
+  this.randomText = Math.random().toString(36).substring(2);
+  await (await this.buttonPage.makeButtonLink()).click();
+  await (await this.editButtonPage.labelTextarea()).fill(this.randomText);
+  await (await this.editButtonPage.createButtonButton()).click();
+});
 
 Then(
   'they should see a button saying {string}',
@@ -23,3 +29,8 @@ Then(
     assert.equal(actualText, expectedText);
   }
 );
+
+Then('they should see a button updated to the right text', async function () {
+  const actualText = await (await this.buttonPage.button()).innerText();
+  assert.equal(actualText, this.randomText);
+});

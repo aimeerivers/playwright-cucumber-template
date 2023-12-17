@@ -19,8 +19,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install Playwright browsers
-        run: npm run playwright:install
+      - name: Install Playwright Chromium browser
+        run: npm run playwright:install:chromium
 
       - name: Run Cucumber features
         run: npm run cucumber
