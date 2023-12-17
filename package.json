@@ -8,7 +8,7 @@
     "playwright:install:chromium": "npx playwright install chromium",
     "lint": "eslint . --ext .ts,.js --fix",
     "format": "prettier --write .",
-    "cucumber": "HEADLESS=true cucumber-js cucumber --tags 'not @wip'",
+    "cucumber": "HEADLESS=true cucumber-js cucumber --tags 'not @wip' --parallel 5",
     "cucumber:wip": "HEADLESS=false cucumber-js cucumber --tags @wip"
   },
   "keywords": [],
