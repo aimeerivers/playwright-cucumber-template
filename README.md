@@ -21,6 +21,10 @@ Includes TSConfig, ESLint and Prettier.
 
     npm run cucumber
 
+This will not run cucumber scenarios tagged `@wip` (work in progress). To run `@wip` scenarios use:
+
+    npm run cucumber:wip
+
 ## Linting and formatting
 
     npm run lint

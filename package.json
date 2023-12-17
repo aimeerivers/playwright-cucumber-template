@@ -7,7 +7,8 @@
     "playwright:install": "npx playwright install",
     "lint": "eslint . --ext .ts,.js --fix",
     "format": "prettier --write .",
-    "cucumber": "cucumber-js cucumber"
+    "cucumber": "cucumber-js cucumber --tags 'not @wip'",
+    "cucumber:wip": "cucumber-js cucumber --tags @wip"
   },
   "keywords": [],
   "author": "",
