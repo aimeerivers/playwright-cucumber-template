@@ -4,7 +4,7 @@ export class ButtonPage {
   constructor(private readonly page: Page) {}
 
   async button(): Promise<Locator> {
-    return this.page.getByRole('button');
+    return this.page.locator('.button-pushable');
   }
 
   async makeButtonLink(): Promise<Locator> {

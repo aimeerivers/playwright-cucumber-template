@@ -11,7 +11,6 @@ When(
   async function (newText: string) {
     await (await this.buttonPage.makeButtonLink()).click();
     await (await this.editButtonPage.labelTextarea()).fill(newText);
-    await this.page.waitForTimeout(100);
     await (await this.editButtonPage.createButtonButton()).click();
   }
 );
