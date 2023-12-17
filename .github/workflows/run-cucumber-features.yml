@@ -23,4 +23,4 @@ jobs:
         run: npm run playwright:install
 
       - name: Run Cucumber features
-        run: npm run test
+        run: npm run cucumber
