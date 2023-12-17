@@ -21,9 +21,13 @@ Includes TSConfig, ESLint and Prettier.
 
     npm run cucumber
 
+This will run cucumber headless in parallel.
+
 This will not run cucumber scenarios tagged `@wip` (work in progress). To run `@wip` scenarios use:
 
     npm run cucumber:wip
+
+This will run in a visible browser, and not in parallel.
 
 ## Linting and formatting
 
