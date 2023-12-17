@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/aimeerivers/playwright-cucumber-template/compare/v1.1.0...v2.0.0) (2023-12-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* 'npm run test' has been changed to 'npm run cucumber'
+
+### Features
+
+* change test examples ([#9](https://github.com/aimeerivers/playwright-cucumber-template/issues/9)) ([81afd18](https://github.com/aimeerivers/playwright-cucumber-template/commit/81afd180180e1397561ddf7e39b211d4e05489cc))
+
 ## [1.1.0](https://github.com/aimeerivers/playwright-cucumber-template/compare/v1.0.0...v1.1.0) (2023-12-16)
 
 
