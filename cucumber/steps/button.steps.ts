@@ -15,7 +15,6 @@ When(
   }
 );
 
-
 When('they make their own button saying some random text', async function () {
   this.randomText = Math.random().toString(36).substring(2);
   await (await this.buttonPage.makeButtonLink()).click();
