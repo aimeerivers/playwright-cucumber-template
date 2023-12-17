@@ -19,7 +19,7 @@ Includes TSConfig, ESLint and Prettier.
 
 ## Running Cucumber
 
-    npm run test
+    npm run cucumber
 
 ## Linting and formatting
 
