@@ -12,7 +12,6 @@ interface World extends CustomWorld {
   buttonPage: ButtonPage;
   editButtonPage: EditButtonPage;
   randomText: string;
-  page: Page;
 }
 
 Given("a user is on the button page", async function (this: World) {
@@ -22,7 +21,6 @@ Given("a user is on the button page", async function (this: World) {
 When("they make their own button saying {string}", async function (this: World, newText: string) {
   await (await this.buttonPage.makeButtonLink()).click();
   await (await this.editButtonPage.labelTextarea()).fill(newText);
-  await this.page.waitForTimeout(10);
   await (await this.editButtonPage.createButtonButton()).click();
 });
 
@@ -30,7 +28,6 @@ When("they make their own button saying some random text", async function (this:
   this.randomText = faker.word.words(3);
   await (await this.buttonPage.makeButtonLink()).click();
   await (await this.editButtonPage.labelTextarea()).fill(this.randomText);
-  await this.page.waitForTimeout(10);
   await (await this.editButtonPage.createButtonButton()).click();
 });
 
