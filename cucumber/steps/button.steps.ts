@@ -1,6 +1,7 @@
 import assert from 'node:assert';
 
 import { Given, Then, When } from '@cucumber/cucumber';
+import { faker } from '@faker-js/faker';
 
 Given('a user is on the button page', async function () {
   await this.page.goto('/push-the-button');
@@ -16,7 +17,7 @@ When(
 );
 
 When('they make their own button saying some random text', async function () {
-  this.randomText = Math.random().toString(36).substring(2);
+  this.randomText = faker.word.words(3);
   await (await this.buttonPage.makeButtonLink()).click();
   await (await this.editButtonPage.labelTextarea()).fill(this.randomText);
   await (await this.editButtonPage.createButtonButton()).click();
