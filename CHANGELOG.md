@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/aimeerivers/playwright-cucumber-template/compare/v2.0.0...v2.0.1) (2023-12-20)
+
+
+### Bug Fixes
+
+* **typescript:** use CustomWorld for type safety ([#14](https://github.com/aimeerivers/playwright-cucumber-template/issues/14)) ([a3d78f2](https://github.com/aimeerivers/playwright-cucumber-template/commit/a3d78f2550211154cf8e6971ab90e41937a5ea66))
+
 ## [2.0.0](https://github.com/aimeerivers/playwright-cucumber-template/compare/v1.1.0...v2.0.0) (2023-12-17)
 
 
