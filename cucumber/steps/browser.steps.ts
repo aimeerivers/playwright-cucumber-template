@@ -1,6 +1,6 @@
-import { After, Before } from '@cucumber/cucumber';
+import { After, Before } from "@cucumber/cucumber";
 
-import type CustomWorld from '../world';
+import type CustomWorld from "../world";
 
 Before(async function (this: CustomWorld) {
   await this.openBrowser();

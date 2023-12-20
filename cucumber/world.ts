@@ -1,14 +1,10 @@
-import type { IWorldOptions } from '@cucumber/cucumber';
-import {
-  setDefaultTimeout,
-  setWorldConstructor,
-  World,
-} from '@cucumber/cucumber';
-import type { Browser, BrowserContext, Page } from 'playwright';
-import { chromium } from 'playwright';
+import type { IWorldOptions } from "@cucumber/cucumber";
+import { setDefaultTimeout, setWorldConstructor, World } from "@cucumber/cucumber";
+import type { Browser, BrowserContext, Page } from "playwright";
+import { chromium } from "playwright";
 
-import { ButtonPage } from './pages/button.page';
-import { EditButtonPage } from './pages/edit-button.page';
+import { ButtonPage } from "./pages/button.page";
+import { EditButtonPage } from "./pages/edit-button.page";
 
 setDefaultTimeout(10 * 1000);
 
@@ -30,10 +26,10 @@ export default class CustomWorld extends World {
 
   async openBrowser(): Promise<void> {
     this.browser = await chromium.launch({
-      headless: process.env.HEADLESS === 'true',
+      headless: process.env.HEADLESS === "true",
     });
     this.context = await this.browser.newContext({
-      baseURL: 'https://aimeerivers.github.io',
+      baseURL: "https://aimeerivers.github.io",
     });
     this.page = await this.context.newPage();
     this.buttonPage = new ButtonPage(this.page);
