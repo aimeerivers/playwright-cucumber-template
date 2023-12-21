@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/aimeerivers/playwright-cucumber-template/compare/v2.0.1...v2.1.0) (2023-12-21)
+
+
+### Features
+
+* **cucumber:** use pretty-formatter when running wip ([#16](https://github.com/aimeerivers/playwright-cucumber-template/issues/16)) ([6e1a629](https://github.com/aimeerivers/playwright-cucumber-template/commit/6e1a6299a0bc5d42dd5c5e11c36a700883f22865))
+
 ## [2.0.1](https://github.com/aimeerivers/playwright-cucumber-template/compare/v2.0.0...v2.0.1) (2023-12-20)
 
 
