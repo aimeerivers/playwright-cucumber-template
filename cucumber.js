@@ -7,6 +7,7 @@ module.exports = {
   default: {
     ...common,
     tags: "not @wip",
+    order: "random",
     parallel: 5,
   },
   wip: {
