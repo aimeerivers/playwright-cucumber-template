@@ -2,7 +2,6 @@ import assert from "node:assert";
 
 import { Given, Then, When } from "@cucumber/cucumber";
 import { faker } from "@faker-js/faker";
-import type { Page } from "playwright";
 
 import type { ButtonPage } from "../pages/button.page";
 import type { EditButtonPage } from "../pages/edit-button.page";

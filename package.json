@@ -8,14 +8,15 @@
     "playwright:install:chromium": "npx playwright install chromium",
     "lint": "eslint . --ext .ts,.js --fix",
     "format": "prettier --write .",
-    "cucumber": "HEADLESS=true cucumber-js cucumber --tags 'not @wip' --parallel 5",
-    "cucumber:wip": "HEADLESS=false cucumber-js cucumber --tags @wip"
+    "cucumber": "HEADLESS=true cucumber-js cucumber",
+    "cucumber:wip": "HEADLESS=false cucumber-js cucumber --profile wip"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@cucumber/cucumber": "^10.0.1",
+    "@cucumber/pretty-formatter": "^1.0.0",
     "@faker-js/faker": "^8.3.1",
     "@types/node": "^20.10.5",
     "@typescript-eslint/eslint-plugin": "^6.15.0",
