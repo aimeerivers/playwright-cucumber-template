@@ -27,6 +27,7 @@ export default class CustomWorld extends World {
   async openBrowser(): Promise<void> {
     this.browser = await chromium.launch({
       headless: process.env.HEADLESS === "true",
+      slowMo: 10,
     });
     this.context = await this.browser.newContext({
       baseURL: "https://aimeerivers.github.io",
