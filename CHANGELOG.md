@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/aimeerivers/playwright-cucumber-template/compare/v2.1.0...v2.1.1) (2024-01-03)
+
+
+### Bug Fixes
+
+* **cucumber:** add a slowMo option ([#18](https://github.com/aimeerivers/playwright-cucumber-template/issues/18)) ([479f287](https://github.com/aimeerivers/playwright-cucumber-template/commit/479f287beb30105634e883e3194a7763df0a2fc5))
+
 ## [2.1.0](https://github.com/aimeerivers/playwright-cucumber-template/compare/v2.0.1...v2.1.0) (2023-12-21)
 
 
