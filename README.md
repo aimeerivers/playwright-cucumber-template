@@ -6,6 +6,16 @@ Scenarios written in Gherkin, step definitions in TypeScript.
 
 Includes TSConfig, ESLint and Prettier.
 
+## Application under test
+
+The application being tested in the examples is [aimeerivers.github.io/push-the-button](https://aimeerivers.github.io/push-the-button/)
+
+It is a very simple web page that has a button that makes a noise when it is pushed. You can customize the button to say anything you like. The cucumber scenarios test this very simple functionality.
+
+You can see how scenarios, step definitions and page object models work together. The scenarios should run successfully straight away, and there is also configuration to be able to run the test scenarios on GitHub Actions.
+
+Of course you'll probably want to delete the example code and replace it with your own, but hopefully it gives you a good guide for getting started.
+
 ## Getting started
 
     npm install
