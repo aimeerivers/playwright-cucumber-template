@@ -9,6 +9,7 @@ module.exports = {
     tags: "not @wip",
     order: "random",
     parallel: 5,
+    retry: 1,
     format: ["html:reports/cucumber-report.html"],
   },
   wip: {
