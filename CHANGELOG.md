@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.2](https://github.com/aimeerivers/playwright-cucumber-template/compare/v2.1.1...v2.1.2) (2024-05-15)
+
+
+### Bug Fixes
+
+* **update-please:** change to new secret ([#25](https://github.com/aimeerivers/playwright-cucumber-template/issues/25)) ([70f990d](https://github.com/aimeerivers/playwright-cucumber-template/commit/70f990db0d9a6d337a9eed31f8292fa29af246fd))
+
 ## [2.1.1](https://github.com/aimeerivers/playwright-cucumber-template/compare/v2.1.0...v2.1.1) (2024-01-03)
 
 
