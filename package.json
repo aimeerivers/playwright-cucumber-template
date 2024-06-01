@@ -6,7 +6,9 @@
   "scripts": {
     "cucumber:wip": "HEADLESS=false cucumber-js cucumber --profile wip",
     "cucumber": "HEADLESS=true cucumber-js cucumber",
+    "format:check": "prettier --check .",
     "format": "prettier --write .",
+    "lint:check": "eslint . --ext .ts,.js",
     "lint": "eslint . --ext .ts,.js --fix",
     "playwright:install:chromium": "npx playwright install chromium",
     "playwright:install": "npx playwright install"
