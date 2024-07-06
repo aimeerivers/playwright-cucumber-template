@@ -13,6 +13,7 @@
     "format:check": "prettier --check .",
     "lint": "eslint . --ext .ts,.js --fix",
     "lint:check": "eslint . --ext .ts,.js",
+    "package:lint": "npx npm-package-json-lint .",
     "playwright:install": "npx playwright install",
     "playwright:install:chromium": "npx playwright install chromium"
   },
