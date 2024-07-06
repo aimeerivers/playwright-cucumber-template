@@ -2,20 +2,20 @@
   "name": "playwright-cucumber-template",
   "version": "2.1.2",
   "description": "Getting started with TypeScript, Playwright and Cucumber",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
   "main": "index.js",
   "scripts": {
-    "cucumber:wip": "HEADLESS=false cucumber-js cucumber --profile wip",
     "cucumber": "HEADLESS=true cucumber-js cucumber",
-    "format:check": "prettier --check .",
+    "cucumber:wip": "HEADLESS=false cucumber-js cucumber --profile wip",
     "format": "prettier --write .",
-    "lint:check": "eslint . --ext .ts,.js",
+    "format:check": "prettier --check .",
     "lint": "eslint . --ext .ts,.js --fix",
-    "playwright:install:chromium": "npx playwright install chromium",
-    "playwright:install": "npx playwright install"
+    "lint:check": "eslint . --ext .ts,.js",
+    "playwright:install": "npx playwright install",
+    "playwright:install:chromium": "npx playwright install chromium"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@cucumber/cucumber": "^10.8.0",
     "@cucumber/pretty-formatter": "^1.0.1",
