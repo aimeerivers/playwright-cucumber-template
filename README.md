@@ -41,8 +41,10 @@ This will run in a visible browser, and not in parallel.
 
 ## Linting and formatting
 
+    npm run package:lint
     npm run lint
     npm run format
 
-- Linting will check for errors and fix formatting in `.ts` and `.js` files.
-- Formatting will apply format rules to all possible files.
+- `package:lint` will ensure the `package.json` file confirms to conventions.
+- `lint` will check for errors and fix formatting in `.ts` and `.js` files.
+- `format` will apply format rules to all possible files.
