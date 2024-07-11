@@ -1,5 +1,32 @@
 # Changelog
 
+## [3.0.0](https://github.com/aimeerivers/playwright-cucumber-template/compare/v2.1.3...v3.0.0) (2024-07-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* 'npm run test' has been changed to 'npm run cucumber'
+
+### Features
+
+* change test examples ([#9](https://github.com/aimeerivers/playwright-cucumber-template/issues/9)) ([81afd18](https://github.com/aimeerivers/playwright-cucumber-template/commit/81afd180180e1397561ddf7e39b211d4e05489cc))
+* **cucumber:** use a cucumber world for browser/page management ([#4](https://github.com/aimeerivers/playwright-cucumber-template/issues/4)) ([9c8400a](https://github.com/aimeerivers/playwright-cucumber-template/commit/9c8400ac5fa67d233363377e1f7e8424ec2f9f69))
+* **cucumber:** use pretty-formatter when running wip ([#16](https://github.com/aimeerivers/playwright-cucumber-template/issues/16)) ([6e1a629](https://github.com/aimeerivers/playwright-cucumber-template/commit/6e1a6299a0bc5d42dd5c5e11c36a700883f22865))
+* **workflows:** add release-please ([ebfc7e8](https://github.com/aimeerivers/playwright-cucumber-template/commit/ebfc7e86b06894f36a56d853eb84382c06b651ca))
+
+
+### Bug Fixes
+
+* **cucumber:** add a slowMo option ([#18](https://github.com/aimeerivers/playwright-cucumber-template/issues/18)) ([479f287](https://github.com/aimeerivers/playwright-cucumber-template/commit/479f287beb30105634e883e3194a7763df0a2fc5))
+* **typescript:** use CustomWorld for type safety ([#14](https://github.com/aimeerivers/playwright-cucumber-template/issues/14)) ([a3d78f2](https://github.com/aimeerivers/playwright-cucumber-template/commit/a3d78f2550211154cf8e6971ab90e41937a5ea66))
+* **update-please:** change to new secret ([#25](https://github.com/aimeerivers/playwright-cucumber-template/issues/25)) ([70f990d](https://github.com/aimeerivers/playwright-cucumber-template/commit/70f990db0d9a6d337a9eed31f8292fa29af246fd))
+
+
+### Dependencies
+
+* update dependencies ([#43](https://github.com/aimeerivers/playwright-cucumber-template/issues/43)) ([a0541c5](https://github.com/aimeerivers/playwright-cucumber-template/commit/a0541c53c912187412361684ecf73054bfb7d0c3))
+* update dependencies ([#45](https://github.com/aimeerivers/playwright-cucumber-template/issues/45)) ([466f920](https://github.com/aimeerivers/playwright-cucumber-template/commit/466f92017054c268f504061c456d63ce8b8ada57))
+
 ## [2.1.3](https://github.com/aimeerivers/playwright-cucumber-template/compare/v2.1.2...v2.1.3) (2024-07-11)
 
 
