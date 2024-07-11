@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.5](https://github.com/aimeerivers/playwright-cucumber-template/compare/v2.1.4...v2.1.5) (2024-07-11)
+
+
+### Dependencies
+
+* update eslint-config-plus-prettier and remove explicit dependencies ([#50](https://github.com/aimeerivers/playwright-cucumber-template/issues/50)) ([d6780ae](https://github.com/aimeerivers/playwright-cucumber-template/commit/d6780aec3c8b0f050b8d2c10d51f6d1c73981885))
+
 ## [2.1.4](https://github.com/aimeerivers/playwright-cucumber-template/compare/v2.1.3...v2.1.4) (2024-07-11)
 
 
