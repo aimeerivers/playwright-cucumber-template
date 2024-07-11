@@ -1,6 +1,6 @@
 {
   "name": "playwright-cucumber-template",
-  "version": "2.1.2",
+  "version": "3.0.0",
   "description": "Getting started with TypeScript, Playwright and Cucumber",
   "keywords": [],
   "license": "ISC",
