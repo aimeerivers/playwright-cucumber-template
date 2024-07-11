@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.3](https://github.com/aimeerivers/playwright-cucumber-template/compare/v2.1.2...v2.1.3) (2024-07-11)
+
+
+### Dependencies
+
+* update dependencies ([#43](https://github.com/aimeerivers/playwright-cucumber-template/issues/43)) ([a0541c5](https://github.com/aimeerivers/playwright-cucumber-template/commit/a0541c53c912187412361684ecf73054bfb7d0c3))
+
 ## [2.1.2](https://github.com/aimeerivers/playwright-cucumber-template/compare/v2.1.1...v2.1.2) (2024-05-15)
 
 
