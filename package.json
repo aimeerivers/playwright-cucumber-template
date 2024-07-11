@@ -22,7 +22,7 @@
     "@cucumber/pretty-formatter": "1.0.1",
     "@faker-js/faker": "8.4.1",
     "@types/node": "20.14.10",
-    "@typescript-eslint/parser": "7.15.0",
+    "@typescript-eslint/parser": "7.16.0",
     "eslint-config-plus-prettier": "1.5.3",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.29.1",
