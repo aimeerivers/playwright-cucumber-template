@@ -21,10 +21,10 @@
     "@cucumber/cucumber": "10.8.0",
     "@cucumber/pretty-formatter": "1.0.1",
     "@faker-js/faker": "8.4.1",
-    "@types/node": "20.14.10",
-    "eslint-config-plus-prettier": "1.5.5",
+    "@types/node": "20.14.11",
+    "eslint-config-plus-prettier": "1.5.6",
     "npm-package-json-lint": "8.0.0",
-    "playwright": "1.45.1",
+    "playwright": "1.45.2",
     "ts-node": "10.9.2",
     "typescript": "5.5.3"
   },
