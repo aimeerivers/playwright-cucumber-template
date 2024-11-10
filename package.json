@@ -8,7 +8,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "cucumber": "HEADLESS=true cucumber-js",
+    "cucumber": "HEADLESS=true node --trace-deprecation node_modules/.bin/cucumber-js",
     "cucumber:wip": "HEADLESS=false cucumber-js --profile wip",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -25,7 +25,7 @@
     "@types/node": "22.9.0",
     "eslint-config-plus-prettier": "2.0.0",
     "playwright": "1.48.2",
-    "ts-node": "10.9.2",
+    "ts-node-maintained": "10.9.4",
     "typescript": "5.6.3"
   },
   "prettier": "eslint-config-plus-prettier/.prettierrc.json"
