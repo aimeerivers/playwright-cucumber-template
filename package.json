@@ -13,8 +13,8 @@
     "cucumber:wip": "HEADLESS=false cucumber-js --profile wip",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "lint": "eslint . --ext .ts,.js --fix",
-    "lint:check": "eslint . --ext .ts,.js",
+    "lint": "eslint --fix",
+    "lint:check": "eslint",
     "package:lint": "npx npm-package-json-lint .",
     "playwright:install": "npx playwright install",
     "playwright:install:chromium": "npx playwright install chromium"
@@ -24,7 +24,7 @@
     "@cucumber/pretty-formatter": "1.0.1",
     "@faker-js/faker": "9.2.0",
     "@types/node": "22.9.0",
-    "eslint-config-plus-prettier": "2.0.0",
+    "eslint-config-plus-prettier": "3.0.0",
     "playwright": "1.48.2",
     "ts-node-maintained": "10.9.4",
     "typescript": "5.6.3"
