@@ -1,6 +1,6 @@
 const common = {
   loader: ["ts-node/esm"],
-  import: ["cucumber/world.ts", "cucumber/**/*.ts"],
+  import: ["features/world.ts", "features/**/*.ts"],
 };
 
 export default {

@@ -8,8 +8,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "cucumber": "HEADLESS=true cucumber-js cucumber",
-    "cucumber:wip": "HEADLESS=false cucumber-js cucumber --profile wip",
+    "cucumber": "HEADLESS=true cucumber-js",
+    "cucumber:wip": "HEADLESS=false cucumber-js --profile wip",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint . --ext .ts,.js --fix",
