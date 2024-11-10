@@ -9,6 +9,7 @@
   "type": "module",
   "scripts": {
     "cucumber": "HEADLESS=true cucumber-js",
+    "cucumber:report": "open reports/cucumber-report.html",
     "cucumber:wip": "HEADLESS=false cucumber-js --profile wip",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
