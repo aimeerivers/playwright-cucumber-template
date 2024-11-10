@@ -1,4 +1,4 @@
 {
   "extends": "eslint-config-plus-prettier/tsconfig.json",
-  "include": ["./**/*"]
+  "include": ["features"]
 }
