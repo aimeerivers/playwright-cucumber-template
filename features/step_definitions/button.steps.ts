@@ -5,7 +5,7 @@ import { faker } from "@faker-js/faker";
 
 import type { ButtonPage } from "../pages/button.page.js";
 import type { EditButtonPage } from "../pages/edit-button.page.js";
-import type CustomWorld from "../world.js";
+import type CustomWorld from "./world.js";
 
 interface World extends CustomWorld {
   buttonPage: ButtonPage;
