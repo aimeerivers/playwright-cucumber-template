@@ -39,6 +39,14 @@ This will not run cucumber scenarios tagged `@wip` (work in progress). To run `@
 
 This will run in a visible browser, and not in parallel.
 
+## Reports
+
+An HTML report is generated in the reports folder. Use this script to open it:
+
+```bash
+npm run cucumber:report
+```
+
 ## Linting and formatting
 
     npm run package:lint
