@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/aimeerivers/playwright-cucumber-template/compare/v3.0.0...v3.0.1) (2024-11-10)
+
+
+### Dependencies
+
+* Switch over to ts-node-maintained to avoid the deprecation warn… ([#93](https://github.com/aimeerivers/playwright-cucumber-template/issues/93)) ([02b85fc](https://github.com/aimeerivers/playwright-cucumber-template/commit/02b85fcdb2826ba2e9aae5398cf298f0e566998b))
+
 ## [3.0.0](https://github.com/aimeerivers/playwright-cucumber-template/compare/v2.1.24...v3.0.0) (2024-11-10)
 
 
