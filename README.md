@@ -4,7 +4,7 @@ Some examples for running Playwright with Cucumber.
 
 Scenarios written in Gherkin, step definitions in TypeScript.
 
-Includes TSConfig, ESLint and Prettier.
+Uses CucumberJS, TS Node and ES modules. Includes TSConfig, ESLint Prettier and Package Lint.
 
 ## Application under test
 
@@ -18,8 +18,10 @@ Of course you'll probably want to delete the example code and replace it with yo
 
 ## Getting started
 
-    npm install
-    npm run playwright:install
+```bash
+npm install
+npm run playwright:install
+```
 
 ## Writing Cucumber features
 
@@ -29,13 +31,17 @@ Of course you'll probably want to delete the example code and replace it with yo
 
 ## Running Cucumber
 
-    npm run cucumber
+```bash
+npm run cucumber
+```
 
 This will run cucumber headless in parallel.
 
 This will not run cucumber scenarios tagged `@wip` (work in progress). To run `@wip` scenarios use:
 
-    npm run cucumber:wip
+```bash
+npm run cucumber:wip
+```
 
 This will run in a visible browser, and not in parallel.
 
@@ -49,10 +55,12 @@ npm run cucumber:report
 
 ## Linting and formatting
 
-    npm run package:lint
-    npm run lint
-    npm run format
+```bash
+npm run lint
+npm run format
+npm run package:lint
+```
 
-- `package:lint` will ensure the `package.json` file confirms to conventions.
 - `lint` will check for errors and fix formatting in `.ts` and `.js` files.
 - `format` will apply format rules to all possible files.
+- `package:lint` will warn of any inconsistencies in the `package.json` file.
