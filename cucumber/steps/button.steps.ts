@@ -3,9 +3,9 @@ import assert from "node:assert";
 import { Given, Then, When } from "@cucumber/cucumber";
 import { faker } from "@faker-js/faker";
 
-import type { ButtonPage } from "../pages/button.page";
-import type { EditButtonPage } from "../pages/edit-button.page";
-import type CustomWorld from "../world";
+import type { ButtonPage } from "../pages/button.page.js";
+import type { EditButtonPage } from "../pages/edit-button.page.js";
+import type CustomWorld from "../world.js";
 
 interface World extends CustomWorld {
   buttonPage: ButtonPage;

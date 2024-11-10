@@ -1,9 +1,9 @@
 const common = {
-  requireModule: ["ts-node/register"],
-  require: ["cucumber/world.ts", "cucumber/steps/**/*.ts"],
+  loader: ["ts-node/esm"],
+  import: ["cucumber/world.ts", "cucumber/**/*.ts"],
 };
 
-module.exports = {
+export default {
   default: {
     ...common,
     tags: "not @wip",

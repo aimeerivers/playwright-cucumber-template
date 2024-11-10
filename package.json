@@ -6,6 +6,7 @@
   "license": "ISC",
   "author": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "cucumber": "HEADLESS=true cucumber-js cucumber",
     "cucumber:wip": "HEADLESS=false cucumber-js cucumber --profile wip",
