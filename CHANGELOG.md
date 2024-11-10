@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/aimeerivers/playwright-cucumber-template/compare/v2.1.24...v3.0.0) (2024-11-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* This project is now fully converted over to ESM style imports. CommonJS require will no longer work.
+
+### Features
+
+* Switch over to use ES modules ([#91](https://github.com/aimeerivers/playwright-cucumber-template/issues/91)) ([0df79ec](https://github.com/aimeerivers/playwright-cucumber-template/commit/0df79ec5dfec822d5ce449f5bb8110f848d84a99))
+
 ## [2.1.24](https://github.com/aimeerivers/playwright-cucumber-template/compare/v2.1.23...v2.1.24) (2024-11-06)
 
 
