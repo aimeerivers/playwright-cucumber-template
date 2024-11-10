@@ -1,6 +1,6 @@
 {
   "default": {
-    "loader": ["ts-node/esm"],
+    "loader": ["ts-node-maintained/esm"],
     "import": ["features/step_definitions/world.ts", "features/**/*.ts"],
     "tags": "not @wip",
     "order": "random",
@@ -9,7 +9,7 @@
     "format": ["html:reports/cucumber-report.html"]
   },
   "wip": {
-    "loader": ["ts-node/esm"],
+    "loader": ["ts-node-maintained/esm"],
     "import": ["features/step_definitions/world.ts", "features/**/*.ts"],
     "tags": "@wip",
     "format": ["@cucumber/pretty-formatter"]
