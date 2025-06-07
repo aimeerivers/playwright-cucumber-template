@@ -11,10 +11,10 @@ on:
           - latest
           - minor
           - patch
-        package_filter:
-          type: string
-          description: Which packages to upgrade
-          default: "*"
+      package_filter:
+        type: string
+        description: Which packages to upgrade
+        default: "*"
   schedule:
     - cron: "0 0 20 * *"
 
