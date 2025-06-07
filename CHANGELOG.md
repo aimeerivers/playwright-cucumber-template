@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.9](https://github.com/aimeerivers/playwright-cucumber-template/compare/v3.1.8...v3.1.9) (2025-06-07)
+
+
+### Chores
+
+* Update eslint-config-plus-prettier to 4.1.9 ([#120](https://github.com/aimeerivers/playwright-cucumber-template/issues/120)) ([f1d4194](https://github.com/aimeerivers/playwright-cucumber-template/commit/f1d419454cb21e4a6c032fa509701b5b54785b16))
+
 ## [3.1.8](https://github.com/aimeerivers/playwright-cucumber-template/compare/v3.1.7...v3.1.8) (2025-03-24)
 
 
