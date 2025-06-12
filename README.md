@@ -53,6 +53,20 @@ An HTML report is generated in the reports folder. Use this script to open it:
 npm run cucumber:report
 ```
 
+## Step definitions
+
+You can get a file of all step definitions and their usage like this:
+
+```bash
+npm run cucumber:steps
+```
+
+This generates a `steps.txt` report showing:
+
+- All available step definitions
+- How often each step is used across your feature files
+- Unused step definitions that could be removed
+
 ## Linting and formatting
 
 ```bash
