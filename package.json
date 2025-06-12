@@ -10,6 +10,7 @@
   "scripts": {
     "cucumber": "HEADLESS=true cucumber-js",
     "cucumber:report": "open reports/cucumber-report.html",
+    "cucumber:steps": "cucumber-js --dry-run --format usage:steps.txt",
     "cucumber:wip": "HEADLESS=false cucumber-js --profile wip",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
