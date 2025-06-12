@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.10](https://github.com/aimeerivers/playwright-cucumber-template/compare/v3.1.9...v3.1.10) (2025-06-12)
+
+
+### Documentation
+
+* Add step usage script and documentation ([#124](https://github.com/aimeerivers/playwright-cucumber-template/issues/124)) ([9575e9a](https://github.com/aimeerivers/playwright-cucumber-template/commit/9575e9a58ac2cb4fd2da27bdcf8fac48ccac86ea))
+
 ## [3.1.9](https://github.com/aimeerivers/playwright-cucumber-template/compare/v3.1.8...v3.1.9) (2025-06-07)
 
 
