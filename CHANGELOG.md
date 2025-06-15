@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.0](https://github.com/aimeerivers/playwright-cucumber-template/compare/v3.1.10...v3.2.0) (2025-06-15)
+
+
+### Features
+
+* Use a 10 minute timeout when running in wip mode ([#126](https://github.com/aimeerivers/playwright-cucumber-template/issues/126)) ([616ef29](https://github.com/aimeerivers/playwright-cucumber-template/commit/616ef296e221d4e04937f0cd29f9a1f264350d1e))
+
 ## [3.1.10](https://github.com/aimeerivers/playwright-cucumber-template/compare/v3.1.9...v3.1.10) (2025-06-12)
 
 
