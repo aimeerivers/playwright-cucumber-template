@@ -6,7 +6,7 @@ import { chromium } from "playwright";
 import { ButtonPage } from "../pages/button.page.js";
 import { EditButtonPage } from "../pages/edit-button.page.js";
 
-setDefaultTimeout(5 * 1000);
+setDefaultTimeout(Number(process.env.TIMEOUT_SECONDS ?? 5) * 1000);
 
 export default class CustomWorld extends World {
   browser: Browser | null;
