@@ -24,9 +24,9 @@
     "@cucumber/cucumber": "11.3.0",
     "@cucumber/pretty-formatter": "1.0.1",
     "@faker-js/faker": "9.8.0",
-    "@types/node": "22.15.30",
-    "eslint-config-plus-prettier": "4.1.9",
-    "playwright": "1.52.0",
+    "@types/node": "24.0.3",
+    "eslint-config-plus-prettier": "4.1.13",
+    "playwright": "1.53.0",
     "ts-node-maintained": "10.9.5",
     "typescript": "5.8.3"
   },
