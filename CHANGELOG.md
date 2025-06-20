@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.2](https://github.com/aimeerivers/playwright-cucumber-template/compare/v3.2.1...v3.2.2) (2025-06-20)
+
+
+### Chores
+
+* Update playwright to 1.53.1 ([#130](https://github.com/aimeerivers/playwright-cucumber-template/issues/130)) ([f11836a](https://github.com/aimeerivers/playwright-cucumber-template/commit/f11836a62a94ccd58bb55f66522ff70a7bcf3405))
+
 ## [3.2.1](https://github.com/aimeerivers/playwright-cucumber-template/compare/v3.2.0...v3.2.1) (2025-06-18)
 
 
