@@ -12,6 +12,6 @@
     "loader": ["ts-node-maintained/esm"],
     "import": ["features/step_definitions/world.ts", "features/**/*.ts"],
     "tags": "@wip",
-    "format": ["@cucumber/pretty-formatter"]
+    "format": ["@cucumber/pretty-formatter", "html:reports/cucumber-report.html"]
   }
 }
