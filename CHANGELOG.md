@@ -1,5 +1,10 @@
 # Changelog
 
+## [4.0.0](https://github.com/aimeerivers/playwright-cucumber-template/compare/v3.2.2...v4.0.0) (2025-06-22)
+
+
+Something went wrong with the release history, so we're just gonna go for 4.0.0 now.
+
 ## [3.2.2](https://github.com/aimeerivers/playwright-cucumber-template/compare/v3.2.1...v3.2.2) (2025-06-20)
 
 
