@@ -1,12 +1,5 @@
 # Changelog
 
-## [3.2.3](https://github.com/aimeerivers/playwright-cucumber-template/compare/v3.2.2...v3.2.3) (2025-06-22)
-
-
-### Chores
-
-* Create HTML reports also in wip mode ([#132](https://github.com/aimeerivers/playwright-cucumber-template/issues/132)) ([bb6c1e4](https://github.com/aimeerivers/playwright-cucumber-template/commit/bb6c1e464a1b3017a981da6024949028179e558b))
-
 ## [3.2.2](https://github.com/aimeerivers/playwright-cucumber-template/compare/v3.2.1...v3.2.2) (2025-06-20)
 
 
