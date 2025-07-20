@@ -23,10 +23,10 @@
   "devDependencies": {
     "@cucumber/cucumber": "11.3.0",
     "@cucumber/pretty-formatter": "1.0.1",
-    "@faker-js/faker": "9.8.0",
-    "@types/node": "24.0.7",
-    "eslint-config-plus-prettier": "4.1.14",
-    "playwright": "1.53.1",
+    "@faker-js/faker": "9.9.0",
+    "@types/node": "24.0.15",
+    "eslint-config-plus-prettier": "4.1.15",
+    "playwright": "1.54.1",
     "ts-node-maintained": "10.9.5",
     "typescript": "5.8.3"
   },
