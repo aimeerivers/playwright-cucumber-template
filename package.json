@@ -24,11 +24,11 @@
     "@cucumber/cucumber": "11.3.0",
     "@cucumber/pretty-formatter": "1.0.1",
     "@faker-js/faker": "9.9.0",
-    "@types/node": "24.0.15",
+    "@types/node": "24.3.0",
     "eslint-config-plus-prettier": "4.1.15",
-    "playwright": "1.54.1",
-    "ts-node-maintained": "10.9.5",
-    "typescript": "5.8.3"
+    "playwright": "1.54.2",
+    "ts-node-maintained": "10.9.6",
+    "typescript": "5.9.2"
   },
   "prettier": "eslint-config-plus-prettier/prettier"
 }
