@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.0.3](https://github.com/aimeerivers/playwright-cucumber-template/compare/v4.0.2...v4.0.3) (2025-09-01)
+
+
+### Chores
+
+* Update dependencies ([#143](https://github.com/aimeerivers/playwright-cucumber-template/issues/143)) ([0f0ce4a](https://github.com/aimeerivers/playwright-cucumber-template/commit/0f0ce4a82505ae33448863ca9409cd156c034cb0))
+* Update dependencies ([#144](https://github.com/aimeerivers/playwright-cucumber-template/issues/144)) ([a62f1a4](https://github.com/aimeerivers/playwright-cucumber-template/commit/a62f1a43e488abf87eaa6b061dca774f80d29b75))
+
 ## [4.0.2](https://github.com/aimeerivers/playwright-cucumber-template/compare/v4.0.1...v4.0.2) (2025-07-20)
 
 
