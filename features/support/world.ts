@@ -3,8 +3,8 @@ import { setDefaultTimeout, setWorldConstructor, World } from "@cucumber/cucumbe
 import type { Browser, BrowserContext, Page } from "playwright";
 import { chromium } from "playwright";
 
-import { ButtonPage } from "../pages/button.page.js";
-import { EditButtonPage } from "../pages/edit-button.page.js";
+import { ButtonPage } from "./pages/button.page.js";
+import { EditButtonPage } from "./pages/edit-button.page.js";
 
 setDefaultTimeout(Number(process.env.TIMEOUT_SECONDS ?? 5) * 1000);
 
