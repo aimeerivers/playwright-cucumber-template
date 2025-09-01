@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.0.4](https://github.com/aimeerivers/playwright-cucumber-template/compare/v4.0.3...v4.0.4) (2025-09-01)
+
+
+### Chores
+
+* Move world and pages into a support folder ([#146](https://github.com/aimeerivers/playwright-cucumber-template/issues/146)) ([ea5648f](https://github.com/aimeerivers/playwright-cucumber-template/commit/ea5648f4143c90eb993d4f223af39cafd703c319))
+* Simplify the cucumber import ([#147](https://github.com/aimeerivers/playwright-cucumber-template/issues/147)) ([8bb07a6](https://github.com/aimeerivers/playwright-cucumber-template/commit/8bb07a6a04c4dc82f0f7ee4261296be4464e6894))
+
 ## [4.0.3](https://github.com/aimeerivers/playwright-cucumber-template/compare/v4.0.2...v4.0.3) (2025-09-01)
 
 
