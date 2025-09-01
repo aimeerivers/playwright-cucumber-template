@@ -1,7 +1,7 @@
 import type { ITestCaseHookParameter } from "@cucumber/cucumber";
 import { After, Before, Status } from "@cucumber/cucumber";
 
-import type CustomWorld from "./world.js";
+import type CustomWorld from "../support/world.js";
 
 Before(async function (this: CustomWorld) {
   await this.openBrowser();
