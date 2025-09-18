@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.5](https://github.com/aimeerivers/playwright-cucumber-template/compare/v4.0.4...v4.0.5) (2025-09-18)
+
+
+### Continuous Integration
+
+* Update Release Please to v4 ([#149](https://github.com/aimeerivers/playwright-cucumber-template/issues/149)) ([2dfd5f4](https://github.com/aimeerivers/playwright-cucumber-template/commit/2dfd5f4438529d8a3675916fd6ad62763bdb5d7a))
+
 ## [4.0.4](https://github.com/aimeerivers/playwright-cucumber-template/compare/v4.0.3...v4.0.4) (2025-09-01)
 
 
