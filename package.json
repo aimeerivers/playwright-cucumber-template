@@ -22,10 +22,10 @@
   },
   "devDependencies": {
     "@cucumber/cucumber": "12.2.0",
-    "@cucumber/pretty-formatter": "2.1.0",
+    "@cucumber/pretty-formatter": "2.3.0",
     "@faker-js/faker": "10.0.0",
-    "@types/node": "24.3.0",
-    "eslint-config-plus-prettier": "4.1.16",
+    "@types/node": "24.5.2",
+    "eslint-config-plus-prettier": "4.2.2",
     "playwright": "1.55.0",
     "ts-node-maintained": "10.9.6",
     "typescript": "5.9.2"
