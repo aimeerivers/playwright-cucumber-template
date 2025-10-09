@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.7](https://github.com/aimeerivers/playwright-cucumber-template/compare/v4.0.6...v4.0.7) (2025-10-09)
+
+
+### Continuous Integration
+
+* Set the playwright cache properly ([#155](https://github.com/aimeerivers/playwright-cucumber-template/issues/155)) ([5ff6cba](https://github.com/aimeerivers/playwright-cucumber-template/commit/5ff6cbaadda0aa2be9fdded0be3d264781d5a052))
+
 ## [4.0.6](https://github.com/aimeerivers/playwright-cucumber-template/compare/v4.0.5...v4.0.6) (2025-10-05)
 
 
